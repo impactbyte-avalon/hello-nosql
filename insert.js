@@ -4,7 +4,7 @@ const insert = database => {
     .collection("users")
     .insertMany(
       [{ username: "A" }, { username: "B" }, { username: "C" }],
-      function(err, result) {
+      (err, result) => {
         console.log("Inserted 3 documents into the document collection")
       }
     )
