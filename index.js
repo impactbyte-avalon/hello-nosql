@@ -4,7 +4,7 @@ const mongo = require("mongodb").MongoClient
 const url = "mongodb://localhost:27017/myproject"
 
 // Use connect method to connect to the Server
-mongo.connect(url, (err, db) => {
+mongo.connect(url, (error, database) => {
   console.log("Connected to MongoDB server")
-  db.close()
+  database.close()
 })
