@@ -1,0 +1,30 @@
+{
+  "name": "hello-nosql",
+  "version": "1.0.0",
+  "description": "Hello NoSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhaidarh/hello-nosql.git"
+  },
+  "keywords": [
+    "hello",
+    "nosql"
+  ],
+  "author": "M Haidar Hanif <npm@mhaidarhanif.com> (https://mhaidarhanif.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhaidarh/hello-nosql/issues"
+  },
+  "homepage": "https://github.com/mhaidarh/hello-nosql#readme",
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  },
+  "dependencies": {
+    "mongodb": "2.2.33"
+  }
+}
