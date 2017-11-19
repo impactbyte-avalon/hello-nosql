@@ -1,0 +1,29 @@
+{
+  "name": "hello-nosql",
+  "version": "1.0.0",
+  "description":
+    "--------------------------------------------------------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arian77/hello-nosql.git"
+  },
+  "keywords": ["as"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arian77/hello-nosql/issues"
+  },
+  "homepage": "https://github.com/arian77/hello-nosql#readme",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
